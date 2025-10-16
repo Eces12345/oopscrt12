@@ -1,0 +1,13 @@
+class p1:
+    def m1(self):
+        print("parent1 method")
+class (p):
+    def m2(self):
+        print("parent2 method")
+class c2(p):
+    def m3(self):
+        print("child2 method")
+c=c1()    
+c.m1()
+c.m2()
+C=m3()
